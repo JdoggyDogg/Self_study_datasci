@@ -50,7 +50,7 @@ def remove_lows(pay_list):
 
 
 
-df = pd.read_csv('/Users/Joe/Desktop/python/Self_study_datasci/california-state-university-2014.csv')
+df = pd.read_csv('california-state-university-2014.csv')
 title_to_pay = dictionary_builder(df)
 
 # make a list of the positions that employed 300 or more people
